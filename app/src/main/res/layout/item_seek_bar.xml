@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="mainData"
+            type="com.srb.energybar.SeekBarClass" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_margin="4dp"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/leftTv"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:layout_weight="15"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:text="@{mainData.min}" />
+
+        <SeekBar
+            android:layout_weight="70"
+            android:id="@+id/seekBar"
+            android:progress="100"
+            android:layout_width="0dp"
+            android:layout_height="40dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/rightTv"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_weight="15"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:text="@{mainData.max}" />
+
+
+    </LinearLayout>
+</layout>
