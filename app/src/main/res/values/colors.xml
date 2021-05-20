@@ -6,6 +6,15 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+    <color name="black2">#1b2021</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="yellow">#F3A6A5</color>
+    <color name="yellow">#FADFDF</color>
+    <color name="shrine_pink_1">#5f939a</color>
+    <color name="shrine_pink_2">#FEEAE6</color>
+    <color name="brown">#442C2E</color>
+    <color name="pink">#212121</color>
+    <color name="progress">#d1d9d9</color>
+    <color name="thumb">#4ca1a3</color>
+    <color name="red">#EF5350</color>
+
 </resources>
